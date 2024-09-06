@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="mobile.css">
+    <style>
+        h1{
+           color: green;
+           margin-left: 60px;
+           font-family: 'Times New Roman', Times, serif;
+        }
+        h2{
+            margin-top: 20px;
+            margin-left: 60px;
+            color: green;
+            font-family: 'Times New Roman', Times, serif;
+        }
+      
+        input, textarea{
+            margin-top: 20px;
+            margin-left: 60px;
+            padding-right:30px;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            background-color: rgba(0, 128, 0, 0.308);
+            font-size: 16.5px;
+
+        }
+        select{
+            margin-top: 20px;
+            margin-left: 60px;
+            padding-right:15px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            background-color: rgba(0, 128, 0, 0.308);
+        }
+        button{
+            margin-top: 20px;
+            margin-left: 60px;
+            padding-right:73px;
+            padding-left: 73px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    
+   <ul class="ul">
+    <li> <a href="index.html">HOME</a></li>  
+    <li> <a href="service.html">SERVICES</a></li>
+    <li class="active"> <a href="book.html">BOOK US</a></li>
+    
+    <li> <a href="contact.html">CONTACT US</a></li>  
+   </ul>
+
+   <img src="header.jpg" alt="pic of flier" id="banner">
+
+
+   <h1>Book a trusted cleaner online within minutes</h1>
+   <h2>Where do you require cleaning?</h2>
+   
+
+   <form action="https://formsubmit.co/ayoolaabayomi1983@gmail.com" method="POST">
+    <input type="text"placeholder="Name" name="name"  required><br>
+    <input type="text"placeholder="Phone Number" name="phone"  required><br>
+    <input type="text" placeholder="Postcode" name="postCode" required><br>
+    <input type="email" placeholder="Email Address" id="email" name="email"><br>
+    
+    <select name="services" id="services">
+        <option value="">-Select Your Required Service-</option>
+        <option value="Residential cleaning services">Residential cleaning services</option>
+        <option value="General cleaning services">General cleaning services</option>
+        <option value="Move-in/ Move-out cleaning services">Move-in/ Move-out cleaning services</option>
+        <option value="Office cleaning services">Office cleaning services</option>
+        <option value="Deep cleaning services">Deep cleaning services</option>
+        <option value="Standard cleaning">Standard cleaning</option>
+        <option value="Post construction cleaning">Post construction cleaning</option>
+        <option value="Dry cleaning & Laundry services">Dry cleaning & Laundry services</option>
+    </select><br>
+    <textarea name="message" id="message" placeholder="Tell Us More About what you need"></textarea><br>
+    <button type="submit">Click To Book</button><br>
+
+   </form><br><br><br>
+   <div class="footer">
+    <p>
+        © 2024 CleanicsLtd. Privacy Policy
+    </p>
+   
+
+</div>
+
+</body>
+</html>
